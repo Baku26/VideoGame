@@ -46,7 +46,7 @@ public class DungonGame {
            public void start() {
                System.out.println("Welcome to the Dunegon Video game, your goal is to find the key");
                
-               while (Player != null && Player.isAlive()) {
+               while (Player.isAlive()) {
                    System.out.println("currently in:" + currentRoom.roomName + "--");
                    if(currentRoom.hasTrap) {
                    System.out.println("uh oh, A trap has been set off!, -5 Speed");
